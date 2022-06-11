@@ -1,0 +1,5 @@
+resume*.aux
+resume*.log
+resume*.gz
+.DS_Store
+resume*.pdf
