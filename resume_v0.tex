@@ -1,15 +1,59 @@
 \documentclass{resume}
+\usepackage{graphicx}
+\graphicspath{ {Photos/} }
+\usepackage{xcolor}
+\usepackage[export]{adjustbox}
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{geometry}
 
-\name{Keerthi Vutukuri}
-\address{ Tanglewood Mews \\ Glenamuck Road North \\ Dublin 18  }
-\address{ 555~$\cdot$~356~$\cdot$~7936 \\ jpublic@example.edu }
+
+%\name{Keerthi Vutukuri}
+%\address{ Glenamuck Road North \\ Carrickmines \\ Dublin 18  }
+%\address{ +353~$\cdot$~08466063889 \\ keerthivutukuri@gmail.com }
+
 
 \def\nameskip{\bigskip}
 \def\sectionskip{\medskip}
 
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+\geometry{left=1.5cm,right=1.5cm,top=1cm,bottom=1cm}
+
+\usepackage{pifont}
+\usepackage{sectsty}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amsthm}
+
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\frenchspacing
+\sectionfont{%
+  \fontfamily{phv}\bfseries
+  \sectionrule{0pt}{0pt}{-5pt}{1pt}%
+}
+\pagestyle{empty}
+
 \begin{document}
+
+\begin{flushleft}
+
+\makebox[0pt][l]{%
+  \fontfamily{phv}\large
+  \begin{tabular}{@{}l@{}}
+  \Large\bfseries Keerthi Vutukuri \\[1ex]
+keerthivutukuri@gmail.com \\   +353 08466063889 \\ Dublin, Ireland
+  \end{tabular}%
+}
+\hspace*{\fill}%
+\begin{tabular}{@{}c@{}}
+  \includegraphics[width=0.20\textwidth]{pic1.jpeg}
+\end{tabular}
+
+\end{flushleft}
+
+\pagecolor{white}
 
   \begin{rSection}{Education}
     {\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
